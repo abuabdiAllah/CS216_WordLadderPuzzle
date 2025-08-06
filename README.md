@@ -63,6 +63,7 @@ problem in a small group of four-letter words. Notice that the graph is an undir
 Figure 1: A small word ladder graph
 The following sequence of words shows one possible solution to the problem posed above:
 fool-->pool-->poll-->pall-->pale-->page-->sage
+
 In this Project Assignment, the Graph associated with Figure 1 is built from reading the
 collection of 15 four-letter words in a file, named FourLetterWords_simple.txt. To figure out
 how to connect the words, we could compare each word in the collection with every other. When
