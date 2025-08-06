@@ -1,4 +1,7 @@
-Problem Specification:
+### University of Kentucky, Sophomore Year - Fall 
+
+## Problem Specification:
+
 1. In the terminal window, make the CS216 directory, which you created in Lab1, your current
 working directory(~/CS216/)
 2. Create a directory underneath the CS216 directory named PA3Part2. Make the directory
@@ -17,14 +20,21 @@ $ cp ../PA3Part1/Graph.cpp ./
 6. Compile the source files using the command:
 $ g++ PA3Part2.cpp Graph.cpp -o PA3Part2
 It cannot pass the compilation, because the main function in PA3Part2.cpp tries to use Graph
-class as a template class. In this Lab assignment, you need to work on:
-• Modify the definition of the class named Graph, and make it into a template class, so
+class as a template class.
+
+## Objectives
+
+In this Lab assignment, you need to work on:
+* Modify the definition of the class named Graph, and make it into a template class, so
 that each vertex of the Graph can be labeled by any data type, and the data type will be
 specified later.
-• Complete the source code in PA3Part2.cpp, starting from the comment line “// your
+* Complete the source code in PA3Part2.cpp, starting from the comment line “// your
 code starts here...” so that it can solve the problem described below.
-• Complete the definition of the function named WordBuckets_addEdges() in
+* Complete the definition of the function named WordBuckets_addEdges() in
 PA3Part2.cpp, starting from the comment line “// provide your code here...”
+
+## Background 
+
 The word ladder puzzle was invented in 1878, by Lewis Carroll, the author of Alice in
 Wonderland. In a word ladder puzzle you must make the change occur gradually by changing
 one letter at a time. At each step you must transform one word into another word, you are not
@@ -32,12 +42,19 @@ allowed to transform a word into a non-word. In this Lab assignment, we are tryi
 demonstrate a word ladder puzzle for a small group of four-letter words only. For example, let us
 solve the “ladder” from the word “FOOL” to the word “SAGE”, and remember we only have a
 small set of four-letter words available. We can solve this problem using a graph algorithm
-similar to what we have done in Lab11. Here is an outline of what we are going to do:
+similar to what we have done in Lab11. 
+
+## Concepts of Solution
+
+Here is an outline of what we are going to do:
 • Represent the relationships between the words as a graph: each four-letter word
 represents a Vertex in the Graph; there is an edge from one word to another if the two
 words are only different by a single letter.
 • Use the graph algorithm named Breadth First Search (BFS) to find a shortest path from
 the starting word to the ending word.
+
+## Example of Purpose
+
 The illustration in Figure 1 below, shows how to solve the FOOL to SAGE word ladder
 problem in a small group of four-letter words. Notice that the graph is an undirected graph.
 
