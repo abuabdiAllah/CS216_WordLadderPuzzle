@@ -59,6 +59,7 @@ The illustration in Figure 1 below, shows how to solve the FOOL to SAGE word lad
 problem in a small group of four-letter words. Notice that the graph is an undirected graph.
 
 <img width="615" alt="image" src="https://github.com/user-attachments/assets/1c68dd07-8033-42c6-89ea-deb771f8a570" />
+
 Figure 1: A small word ladder graph
 The following sequence of words shows one possible solution to the problem posed above:
 fool-->pool-->poll-->pall-->pale-->page-->sage
